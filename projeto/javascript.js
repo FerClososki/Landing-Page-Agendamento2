@@ -16,7 +16,7 @@ Data desejada: ${data}`
 
 let numero = "5541987426394"
 
-let url = `https://wa.me/${+5541987426394}?text=${encodeURIComponent(mensagem)}`
+let url = `https://wa.me/${5541987426394}?text=${encodeURIComponent(mensagem)}`
 
 window.open(url, "_blank")
 
