@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Bela Face</title>
+    <link rel="stylesheet" href="projeto/style.css">
+    <link rel="stylesheet" href="projeto/javascript.js">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Studio Bela Face</div>
+        <nav>
+            <a href="#servicos">Serviços</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#agendamento">Agendamento</a>
+            <a href="#galeria">Galeria</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Sobrancelhas e Cílios Perfeitos</h1>
+            <p>Realce sua beleza com técnicas profissionais de design de sobrancelhas e extensão de cílios.</p>
+            <a href="#agendamento" class="botao">Agendar Agora</a>
+        </div>
+    </section>
+    <section id="galeria" class="galeria">
+        <h2>Resultados</h2>
+        <p>Veja alguns trabalhos realizados</p>
+        <div class="galeria-grid">
+            <img src="projeto/imagens/imagem1.jpg" alt="Cílios fio a fio">
+            <img src="projeto/imagens/imagem3.jpg" alt="Design de sobrancelha">
+            <img src="projeto/imagens/imagem4.jpg" alt="Lash lift">
+        </div>
+    </section>
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Cílios Fio a Fio</h3>
+                <p>Extensão de cílios natural e elegante.</p>
+            </div>
+            <div class="card">
+                <h3>Design de Sobrancelha</h3>
+                <p>Modelagem personalizada para valorizar seu rosto.</p>
+            </div>
+            <div class="card">
+                <h3>Lash Lift</h3>
+                <p>Curvatura e volume natural para seus cílios.</p>
+            </div>
+        </div>
+    </section>
+    <section id="sobre" class="sobre">
+        <h2>Sobre o Studio</h2>
+        <p>
+            Somos especialistas em realçar sua beleza natural.
+            Utilizamos técnicas modernas para proporcionar
+            resultados delicados, naturais e duradouros.
+        </p>
+    </section>
+    <section id="agendamento" class="agendamento">
+        <h2>Agende Seu Horário</h2>
+        <form id="form-agendamento">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="tel" id="whats" placeholder="Seu WhatsApp" required>
+            <select id="servico" required>
+                <option value="">Escolha o serviço</option>
+                <option>Design de sobrancelha</option>
+                <option>Cílios fio a fio</option>
+                <option>Lash lift</option>
+            </select>
+            <input type="date" id="data" required>
+            <button type="submit"><a href="wa.me/41996889167">Agendar pelo WhatsApp</a></button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2026 Studio Bela Face</p>
+    </footer>
+
+</body>
+
+</html>
